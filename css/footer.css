@@ -1,0 +1,219 @@
+
+	@font-face {
+      font-family: "Roboto Light";
+      src: url("../fonts/Roboto-Light.ttf");
+    }
+	
+	@font-face {
+      font-family: "Roboto Condensed";
+      src: url("../fonts/RobotoCondensed-Regular.ttf");
+    }
+	
+		#header a:hover{
+		text-decoration:underline;	
+			color:#FFF;
+		}
+		
+
+					#main a {
+						color:#3B3D3D;
+					}
+					
+					#valores a {
+						color:#FFF;
+					}
+		
+		.circled {
+
+			background: #615D5D;
+			color: #fff;
+			border-radius: 100%;
+			width: 3em;
+			height: 3em;
+			font-family:Roboto Light;
+			line-height: 3.25em;
+			text-align: center;
+			font-size: .95em;
+			text-decoration: none;
+			padding: 2em 1em 2em 1em;
+			opacity:0.4;
+			cursor: pointer;
+			outline: 0;
+			font-weight: 300;
+
+		}
+		
+		
+
+	
+	
+	
+	#hommer{
+	background-color:#068D08;
+	width:100%;
+	height:15px;
+	}
+	
+
+
+.container{
+background-color:#171717;
+}
+
+body{
+	background-color:#171717;
+}
+
+
+
+#footer .secondary {
+	background-color:#0B0B0B;
+	font-family:Roboto Light;
+	font-size:11pt;
+	color: #D8D8D8;
+	width: 100%;
+	position: absolute;
+}
+
+	#footer a{
+	color:#D1D5CE;
+	}
+
+	#footer  a:hover{
+	color:#EBEFF0;
+	}
+
+#footer .secondary  p{
+	padding-top:7px;
+}
+
+h20{
+	font-family:Roboto Condensed;
+	font-size:17pt;
+	text-align:center;
+}
+
+	#mision{
+	display: table-cell;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:50px;
+	font-family:Roboto Light;
+	color: #FFF;
+	font-size:12pt;
+	
+	}
+	
+	#mision2{
+	width:100%;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:50px;
+	font-family:Roboto Light;
+	color: #FFF;
+	font-size:12pt;
+	
+	}
+	#main h21{
+	font-family:Roboto Condensed;
+	color: #C6C4C4;
+	font-size:27pt;	
+	}
+	
+	#valores{
+	float: left;
+	width: 33.3333333%;
+	padding-left:30px;
+	padding-right:10px;
+	padding-top:50px;
+	font-family:Roboto Light;
+	font-size:8pt;
+	}
+	
+	
+	#valoresEmpleo{
+	float: left;
+	width: 33.3333333%;
+	padding-left:30px;
+	padding-right:10px;
+	padding-top:40px;
+	font-family:Roboto Light;
+	font-size:8pt;
+	}
+	
+	#valores p{
+		padding-top:10px;
+	}
+
+	
+	
+	#mision p{
+		padding-top:7px;
+	}
+	
+	
+		#mision2 h15{
+		font-family:Roboto Condensed;
+		font-size:17pt;
+	}
+	
+	
+	#main p{
+		font-family:Roboto Light;
+		font-size:13pt;
+		color:white;
+	}
+	
+	#MostarCuadros{
+		display:none;
+	}
+	
+	
+
+
+	
+	@media only screen and (max-width: 800px) {
+	
+	#MostarCuadros{
+		display:block;
+	}
+	
+	#Mostrartabla{
+		display:none;
+	}
+	
+	#valores{
+	width: 100%;
+	padding-left:1px;
+	padding-right:1px;
+	display:block;
+	}
+	
+	#valoresEmpleo{
+	width: 100%;
+	padding-left:1px;
+	padding-right:1px;
+	display:block;
+	}
+		
+	#mision{
+	width:100%;
+	display:block;
+	}
+	
+	#mision2{
+	width:100%;
+	}
+	
+	#mision2 img{
+	width:60%;
+	}
+		
+	}
+
+
+
+
+
+
+

@@ -1,0 +1,301 @@
+
+	@font-face {
+      font-family: "Roboto Light";
+      src: url("../fonts/Roboto-Light.ttf");
+    }
+	
+	@font-face {
+      font-family: "Roboto Condensed";
+      src: url("../fonts/RobotoCondensed-Regular.ttf");
+    }
+
+
+	h1, h2, h3, h4, h5, h6, .homeSection h3, #pageHead h1, .widgetBox span.title { font-family: 'Raleway' !important; }
+	.home .slideshow h1,.home .slideshow h2,.home .slideshow h3,.home .slideshow h4,.home .slideshow h5 { font-family: 'Patua One' !important; }
+	.home .slideshow p { font-family: 'Raleway'; }
+	
+	.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+
+
+
+
+	blockquote, address {
+		border-left: 5px solid #B7B9BA;
+	}
+	#filterNav .selected, #filterNav a.selected:hover {
+		background-color: #B7B9BA;
+	}
+
+	.posts .post .date
+	{
+		background-color: #B7B9BA !important;
+	}
+	#content .project.small .inside{
+		background-color: #B7B9BA !important;
+	}
+
+	#homeMessage {
+		background-color: #252525;
+	}
+
+#mainNav ul a, #mainNav ul li.sfHover ul a { color: #FAFAF5 !important;	}
+	#mainNav ul li.current a,
+	#mainNav ul li.current-cat a,
+	#mainNav ul li.current_page_item a,
+	#mainNav ul li.current-menu-item a,
+	#mainNav ul li.current-post-ancestor a,
+	.single-post #mainNav ul li.current_page_parent a,
+	#mainNav ul li.current-category-parent a,
+	#mainNav ul li.current-category-ancestor a,
+	#mainNav ul li.current-portfolio-ancestor a,
+	#mainNav ul li.current-projects-ancestor a {
+		color: #FAFAF5 !important;
+	}
+	#mainNav ul li.sfHover a,
+	#mainNav ul li a:hover,
+	#mainNav ul li:hover {
+		color: #FAFAF5 !important;
+	}
+	#mainNav ul li.sfHover ul a:hover { color: #FAFAF5 !important;}
+
+a { color: #FAFAF5;}
+a:hover {color: #FAFAF5;}
+.button, #searchsubmit, input[type="submit"] {background-color: #757575;}
+
+.flexslider {
+ touch-action: pan-y !important;
+ -ms-touch-action: pan-y !important;
+}
+
+
+.slides a:hover{
+		color:white; 
+		}
+		.slides a:Visited{
+		color:white; 
+		}
+
+		
+		
+	.circled {
+	
+			background: #615D5D;
+			color: #fff;
+			border-radius: 100%;
+			width: 3em;
+			height: 3em;
+			font-family:Roboto Light;
+			line-height: 3.25em;
+			text-align: center;
+			font-size: 1.25em;
+			text-decoration: none;
+			padding: 2em 1em 2em 1em;
+			opacity:0.4;
+			cursor: pointer;
+			outline: 0;
+			font-weight: 300;
+
+		}
+		
+		
+			.circledfooter{
+	
+			background: #F2F2F2;
+			color: #fff;
+			border-radius: 100%;
+			width: 3em;
+			height: 3em;
+			line-height: 3.25em;
+			text-align: center;
+			font-size: 1.25em;
+			text-decoration: none;
+			padding: .5em .8em .5em .8em;	
+			cursor: pointer;
+			outline: 0;
+			font-weight: 300;
+
+		}
+		
+
+	#contenedor {
+	width: 80%;
+	margin: 0 auto;
+	}
+	
+	#middle{background-color:#171717;}
+	#contenedor{background-color:#171717;}
+	
+	
+	#valores{
+	float: left;
+	width: 33.3333333%;
+	padding-left:30px;
+	padding-right:10px;
+	padding-top:50px;
+	font-family:Roboto Light;
+	color: #C6C4C4;
+	font-size:12pt;
+	}
+	#valores p{
+		padding-top:10px;
+	}
+	#valores header{
+		padding-top:15px;
+	}
+	
+
+	
+	#mision{
+	float: left;
+	width: 50%;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:70px;
+	font-family:Roboto Light;
+	color: #C6C4C4;
+	font-size:12pt;
+	
+	}
+	
+	#mision p{
+		padding-top:7px;
+	}
+	
+	#valores h15{
+		font-family:Roboto Condensed;
+		font-size:17pt;
+	}
+	
+	#mision h15{
+		font-family:Roboto Condensed;
+		font-size:17pt;
+	}
+	
+	#mision2 h15{
+		font-family:Roboto Condensed;
+		font-size:17pt;
+	}
+	
+	 h15{
+		font-family:Roboto Condensed;
+		font-size:17pt;
+	 }
+	
+	
+	
+	#sliderhommer{
+	float: left;
+	width: 100%;
+	}
+	
+	
+	#sliderhommer{
+	float: left;
+	width: 100%;
+	}
+	
+	
+	#mision2{
+	float: left;
+	width: 100%;
+	padding-left:20px;
+	padding-right:20px;
+	font-family:Roboto Light;
+	color: #C6C4C4;
+	font-size:12pt;
+	}
+	
+	
+	#empresas {
+	float: left;
+	width: 25%;
+	padding-top:50px;
+	}
+	
+	#hommer{
+	background-color:#068D08;
+	width:100%;
+	height:15px;
+	-webkit-box-shadow: 3px -7px 98px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 3px -7px 98px 0px rgba(0,0,0,0.75);
+	box-shadow: 3px -7px 98px 0px rgba(0,0,0,0.75);
+	}
+
+
+	
+	@media only screen and (max-width: 800px) {
+	#valores{
+	width: 100%;
+	padding-left:1px;
+	padding-right:1px;
+	}
+	
+	#empresas {
+	width: 100%;
+	padding-left:1px;
+	padding-right:1px;
+	}
+	
+	#mision {
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:30px;
+	width: 100%;
+	}
+	
+	#mision2 {
+	padding-left:1px;
+	padding-right:1px;
+	padding-top:30px;
+	width: 100%;
+	}
+	
+	}
+	
+	.secondary img{	 
+		float:left;
+		padding-top:5px;
+	}
+	
+	.circulo {
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background: #fff;
+	 padding: .5em .8em .5em .8em;
+	 float: left;
+	}
+	
+	
+	
+	#contenedor a{
+	color:#424242;
+	} 	
+	
+	#footer a{
+	color:#D1D5CE;
+	}
+
+	
+	#footer  a:hover{
+	color:#EBEFF0;
+	}
+	
+	
+	#footer .secondary {
+	margin: 0 0 0;
+	padding: 10px;
+	background-color:#0B0B0B;
+	}
+
+	#footer .secondary p{
+
+	font-family:Roboto Light;
+	font-size:11pt;
+	color: #D8D8D8;
+	}
+
+		
+
+
+	
